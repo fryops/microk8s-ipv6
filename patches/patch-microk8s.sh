@@ -1,1 +1,1 @@
-( cd microk8s && ./patch.sh )
+( cd microk8s && ./patch.sh $1 )
