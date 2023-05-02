@@ -1,3 +1,3 @@
-( cd calico && ./patch.sh )
-( cd coredns && ./patch.sh )
-( cd kubernetes && ./patch.sh )
+( cd calico && ./patch.sh $1 )
+( cd coredns && ./patch.sh $1 )
+( cd kubernetes && ./patch.sh $1 )
